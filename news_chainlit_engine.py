@@ -14,7 +14,7 @@ def install_packages():
 
 try:
     import asyncio
-    import nest_asyncio
+    #import nest_asyncio
     import pandas as pd
     import qdrant_client
     from llama_index.core.memory import ChatMemoryBuffer
@@ -31,7 +31,7 @@ try:
     from llama_index.core.service_context import ServiceContext
 except ModuleNotFoundError:
     install_packages()
-    import nest_asyncio
+    #import nest_asyncio
     import pandas as pd
     import qdrant_client
     from llama_index.core.memory import ChatMemoryBuffer
