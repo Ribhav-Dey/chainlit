@@ -1,6 +1,22 @@
 import os
 import subprocess
 import sys
+import asyncio
+#import nest_asyncio
+import pandas as pd
+import qdrant_client
+pip install llama_index.core.memory
+pip install getpass 
+pip install llama_parse 
+pip install llama_index.core 
+pip install llama_index.core.node_parser 
+pip install llama_index.embeddings.fastembed 
+pip install llama_index.llms.groq 
+pip install llama_index.vector_stores.qdrant
+pip install chainlit
+pip install llama_index.core.query_engine.retriever_query_engine
+pip install llama_index.core.callbacks 
+pip install llama_index.core.service_context
 
 def install_packages():
     required_packages = [
